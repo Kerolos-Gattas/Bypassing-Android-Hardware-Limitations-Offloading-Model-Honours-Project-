@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">N-Queens Puzzle</string>
+    <string name="nQueensInput">Please enter the size of the N-queens puzzle</string>
+    <string name="solvePuzzleBtn">Solve</string>
 </resources>

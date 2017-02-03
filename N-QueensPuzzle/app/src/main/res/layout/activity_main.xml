@@ -9,8 +9,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.kerolos.n_queenspuzzle.MainActivity">
 
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nQueensInput"
+        android:hint="@string/nQueensInput"
+        android:textSize="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solvePuzzleBtn"
+        android:id="@+id/solvePuzzleBtn"
+        android:layout_below="@+id/nQueensInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/nQueensOutput"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/solvePuzzleBtn"
+        android:layout_centerHorizontal="true"
+        android:maxLines = "1000000000"
+        android:scrollbars = "vertical"/>
 </RelativeLayout>
