@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Math Algorithms</string>
+    <string name="factorials">Calculate Factorials</string>
+    <string name="fibonacci">Calculate Fibonacci</string>
+    <string name="primals">Find the nth Primal</string>
+
+    <string name="factorialsInput">Enter Desired Factorial Number</string>
+    <string name="factorialsBtn">Calculate Factorial</string>
+
+    <string name="primalsInput">Enter Desired nth Primal Number</string>
+    <string name="primalsBtn">Find nth Primal Number</string>
+
+    <string name="fibonacciInput">Enter Desired nth Fibonacci Number</string>
+    <string name="fibonacciBtn">Find nth Fibonacci Number</string>
+</resources>
