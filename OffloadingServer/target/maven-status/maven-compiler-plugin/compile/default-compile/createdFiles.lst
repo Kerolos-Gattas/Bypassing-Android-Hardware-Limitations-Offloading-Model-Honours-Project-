@@ -1,0 +1,6 @@
+com\kerolos\offlaodingServer\OffloadingEngine.class
+com\kerolos\resources\Constants.class
+com\kerolos\offlaodingServer\StartApplication.class
+com\kerolos\resources\CommunicationMessages.class
+com\kerolos\offlaodingServer\OffloadingCommunication.class
+com\kerolos\offlaodingServer\OffloadedMethods.class

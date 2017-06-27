@@ -1,7 +1,3 @@
-//Author: Kerolos Gattas.
-//Class' Purpose: Main menu for the application and handling user's choice.
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
 package com.kerolos.mathalgorithms;
 
 import android.app.Activity;
@@ -13,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 import com.kerolos.factorials.FactorialsActivity;
-import com.kerolos.fibonacci.fibonacciActivity;
+import com.kerolos.fibonacci.FibonacciActivity;
 import com.kerolos.primals.PrimalsActivity;
 
 public class MainMenu extends Activity {
@@ -21,6 +17,7 @@ public class MainMenu extends Activity {
     private Button factorialsBtn;
     private Button fibonacciBtn;
     private Button primalsBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +41,7 @@ public class MainMenu extends Activity {
         fibonacciBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent factorialsIntent = new Intent(MainMenu.this, fibonacciActivity.class);
+                Intent factorialsIntent = new Intent(MainMenu.this, FibonacciActivity.class);
                 startActivity(factorialsIntent);
             }
         });

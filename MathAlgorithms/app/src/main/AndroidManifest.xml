@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kerolos.mathalgorithms">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,16 +9,23 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainMenu">
+        <activity android:name=".MainMenu"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kerolos.factorials.FactorialsActivity" />
-        <activity android:name="com.kerolos.primals.PrimalsActivity" />
-        <activity android:name="com.kerolos.fibonacci.fibonacciActivity"></activity>
+        <activity
+            android:name="com.kerolos.factorials.FactorialsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kerolos.primals.PrimalsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kerolos.fibonacci.FibonacciActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
